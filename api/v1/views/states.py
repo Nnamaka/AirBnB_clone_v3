@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" state view """
+"""State view for state objects"""
 from api.v1.views import app_views
 from flask import request, abort, jsonify, make_response
 from models import storage
