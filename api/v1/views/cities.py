@@ -3,7 +3,7 @@
 from api.v1.views import app_views
 from flask import request, abort, jsonify, make_response
 from models import storage
-from models.city import city
+from models.city import City
 from models.state import State
 
 
